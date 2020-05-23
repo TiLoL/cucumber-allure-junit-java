@@ -1,4 +1,4 @@
-Feature: Calculator
+Feature: Calculator2
   As a user i want to use a calculator to add numbers
 
   Scenario Outline: Add two numbers
@@ -8,5 +8,4 @@ Feature: Calculator
 
     Examples:
       | num1 | num2 | result |
-      | -2   | 3    | 1      |
-      | 1    | 6    | 7      |
+      | -2   | -3   | -5     |
