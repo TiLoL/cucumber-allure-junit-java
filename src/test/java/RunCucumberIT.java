@@ -10,5 +10,5 @@ import org.junit.runner.RunWith;
                 "summary"
         }
 )
-public class RunCucumberTest {
+public class RunCucumberIT {
 }
