@@ -1,5 +1,7 @@
+@TransferService
 Feature: transfer service test
 
+  @base
   Scenario: Transfer money from one account to another
     Given user creates accounts:
       | accId | accPrefix| amount |
