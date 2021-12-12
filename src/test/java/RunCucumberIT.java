@@ -5,7 +5,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = "src/test/resources/features",
-        tags = "@base and @TransferService",
+        tags = "@base",
         plugin = {
                 "progress",
                 "summary"

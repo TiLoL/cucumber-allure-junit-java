@@ -16,6 +16,7 @@
         <allure.version>2.16.0</allure.version>
         <cucumber.version>6.11.0</cucumber.version>
         <allure-maven.version>2.10.0</allure-maven.version>
+        <rest-assured.version>3.3.0</rest-assured.version>
     </properties>
 
     <dependencies>
@@ -37,6 +38,18 @@
             <artifactId>cucumber-java</artifactId>
             <version>${cucumber.version}</version>
         </dependency>
+
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>rest-assured</artifactId>
+            <version>${rest-assured.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jsoup</groupId>
+            <artifactId>jsoup</artifactId>
+            <version>1.10.2</version>
+        </dependency>
+
 
     </dependencies>
 
